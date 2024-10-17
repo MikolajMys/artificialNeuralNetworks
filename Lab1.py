@@ -8,9 +8,9 @@ X = np.array([[0, 0, 0], [0, 1, 0], [1, 0, 1], [1, 1, 1]])
 #y = np.array([0, 0, 1, 1])
 # y = np.array([0, 0, 0, 1]) # Oczekiwane wyjścia (AND)
 # ZAD1
-y = np.array([0, 1, 1, 1])
+y = np.array([0, 0, 1, 1])
 # Parametry perceptronu
-w = np.random.rand(2) # Inicjalizacja wag (losowe wartości początkowe)
+w = np.random.rand(3) # Inicjalizacja wag (losowe wartości początkowe)
 b = np.random.rand(1) # Inicjalizacja biasu (losowa wartość początkowa)
 # eta = 0.1 # Współczynnik uczenia (determinuje, jak duże są kroki aktualizacji wag)
 # ZAD5
