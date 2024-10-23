@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 errors = []
 # Dane treningowe
 # X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]) # Wejścia (dane treningowe)
+# ZAD6
 X = np.array([[0, 0, 0], [0, 1, 0], [1, 0, 1], [1, 1, 1]])
 #y = np.array([0, 0, 1, 1])
 # y = np.array([0, 0, 0, 1]) # Oczekiwane wyjścia (AND)
